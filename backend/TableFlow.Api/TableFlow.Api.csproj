@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TableFlow.Application\TableFlow.Application.csproj" />
+    <ProjectReference Include="..\TableFlow.Infrastructure\TableFlow.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
