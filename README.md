@@ -60,7 +60,7 @@ PostgreSQL will be needed when persistence is introduced; it is **not required**
 ### 1. Clone the repository
 
 ```bash
-git clone <https://github.com/Lukanoid/TableFlow.git>
+git clone https://github.com/Lukanoid/TableFlow.git
 cd TableFlow
 ```
 
