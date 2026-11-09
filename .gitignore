@@ -147,3 +147,29 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+
+# Visual Studio generated files
+.vs/
+*.suo
+*.wsuo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Node.js / React
+node_modules/
+dist/
+build/
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
