@@ -4,7 +4,18 @@
 
 The goal is to make table reservations easier for customers while giving venues a centralized system to manage availability, seating arrangements, bookings, and guests.
 
-> **Project Status:** Foundation setup (TF-001). The ASP.NET Core 10 backend and React + TypeScript frontend are initialized and can run independently. Business functionality is planned but has not yet been implemented.
+> **Project Status:** Active Development — Milestone 2: Core Domain & Persistence.
+>
+> **Completed:**
+> - **TF-001 — Project Foundation:** ASP.NET Core 10 backend, React + TypeScript frontend, four-layer backend architecture, and successful build verification.
+> - **TF-002 — Core Venue Domain Model:** Implemented the `Venue` entity with identity management, name validation, venue types, IANA time zone validation, and controlled updates.
+> - **Automated Testing:** Added an xUnit test project with 31 passing tests.
+>
+> **Current Focus:** Expanding the domain model with additional hospitality concepts before introducing PostgreSQL and Entity Framework Core.
+>
+> **Next:** TF-003 — Upcoming domain feature.
+>
+> **Note:** The API and frontend are currently starter applications. Reservation workflows, database persistence, authentication, and venue-management interfaces are planned but not yet implemented.
 
 ## Planned Features
 
