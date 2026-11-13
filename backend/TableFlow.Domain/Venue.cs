@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TableFlow.Domain
+﻿namespace TableFlow.Domain
 {
     public class Venue
     {
@@ -58,7 +56,7 @@ namespace TableFlow.Domain
             Name = newName.Trim();
         }
 
-        private bool IsValidName(string name)
+        private static bool IsValidName(string name)
         { 
 
             if (string.IsNullOrWhiteSpace(name))
@@ -75,7 +73,7 @@ namespace TableFlow.Domain
             return true;
         }
 
-        private void ValidateTimeZone(string? timeZoneId)
+        private static void ValidateTimeZone(string? timeZoneId)
         {
             if (string.IsNullOrWhiteSpace(timeZoneId))
             {
@@ -100,7 +98,7 @@ namespace TableFlow.Domain
             }
         }
 
-        private void ValidateId(int id)
+        private static void ValidateId(int id)
         {
             if (id <= 0)
             {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TableFlow.Domain
+﻿namespace TableFlow.Domain
 {
     public enum VenueType
     {
